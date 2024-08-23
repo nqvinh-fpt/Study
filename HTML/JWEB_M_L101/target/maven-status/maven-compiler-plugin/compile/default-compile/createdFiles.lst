@@ -1,0 +1,6 @@
+fa\training\utils\Constants.class
+fa\training\utils\LogFactory.class
+fa\training\entities\User.class
+fa\training\utils\DBUtils.class
+fa\training\dao\UserDao.class
+fa\training\servlet\RegisterServlet.class

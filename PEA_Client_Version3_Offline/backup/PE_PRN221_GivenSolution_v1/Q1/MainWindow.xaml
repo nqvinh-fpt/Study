@@ -1,0 +1,75 @@
+﻿<Window x:Class="Q1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Q1"
+        mc:Ignorable="d"
+        Title="Add Employee Window" Height="450" Width="800">
+    <Grid>
+        <DockPanel VerticalAlignment="Top" Margin="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.8*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0" Margin="0,0,42,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" MinWidth="97"></ColumnDefinition>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+
+
+                    </Grid.RowDefinitions>
+
+                    <Label Margin="0,0,0,20" Content="Employee Name" HorizontalAlignment="Center" Grid.Row="2" Width="97" />
+                    <TextBox Margin="5,0,4,21" x:Name="txtName" Text="{Binding Path=Name, Mode=OneWay}" DataContext="{Binding ElementName=lvDerectors, Path=SelectedItem}" Grid.Row="2" Grid.Column="1" />
+
+
+                    <Label Margin="0,0,0,20" Content="Date of birth" HorizontalAlignment="Left" Grid.Row="3" Grid.Column="0" Width="77" />
+                    <DatePicker Margin="4,0,4,21" Name="dpDob"  Text="{Binding Path=Dob, Mode=OneWay}" DataContext="{Binding ElementName=lvDerectors, Path=SelectedItem}" Grid.Row="3" Grid.Column="1" />
+
+                    <Label Margin="0,0,0,20" Content="Department" HorizontalAlignment="Left" Grid.Row="4" Grid.Column="0" Width="74" />
+
+                    <Label Margin="0,59,0,20" Content="Position" HorizontalAlignment="Left" Grid.Row="4" Grid.Column="0" Grid.RowSpan="2" Width="52" />
+                    <DockPanel x:Name="cbtnIsMManager" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center" IsEnabled="False" Cursor="" Height="0" Width="0"/>
+
+                    <Label Margin="0,0,0,20" Content="Hire date" HorizontalAlignment="Left" Grid.Row="6" Grid.Column="0" Width="59" />
+
+
+                    <StackPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Left" Margin="77,0,0,0" Width="220">
+                        <Button x:Name="btnAdd" Content="Add New Employee" Width="216" Click="btnAdd_Click"/>
+                    </StackPanel>
+                    <ComboBox x:Name="cbDepartment" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Top" Width="200" Margin="0,2,0,0" Height="22"/>
+                    <CheckBox x:Name="cboxIsManager" Grid.Column="1" Content="Is Manager" HorizontalAlignment="Left" Margin="5,34,0,0" Grid.Row="4" VerticalAlignment="Top" Height="15" Width="79" IsChecked="False"/>
+                    <ComboBox x:Name="cbPosition" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Top" Width="200" Grid.Column="1" Margin="0,59,0,0" Grid.RowSpan="2" Height="22"/>
+                    <DatePicker Margin="5,1,4,20" x:Name="dpHireDate"  Text="{Binding Dob, Mode=OneWay}" DataContext="{Binding SelectedItem, ElementName=lvDerectors}" Grid.Row="6" Grid.Column="1" />
+
+                </Grid>
+
+                <!-- Cột 1 (ListView) -->
+                <Grid Grid.Column="1">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="1" Orientation="Vertical" HorizontalAlignment="Stretch"/>
+                </Grid>
+                <Label Grid.Column="1" Content="Skills" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            </Grid>
+        </DockPanel>
+        <ListBox x:Name="lboxSkill"  Margin="357,43,58,274"/>
+    </Grid>
+</Window>

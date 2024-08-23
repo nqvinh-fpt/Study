@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 29, 2023, 4:00:37 PM
+    Author     : phamx
+*/
+
+body{
+    justify-content: center;
+}
+.title{
+    padding-left:20px;
+    border :solid 3px black;
+
+}
+.form-body{
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    border: solid 3px black;
+    border-top: 0;
+    padding: 10px;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.input {
+    align-items: center;
+    width: 60%;
+    height: 50px;
+    padding-left: 10px;
+}
+b{
+    align-items: start;
+    justify-content: start;
+}
+.button{
+    width: 100px;
+}
+.transfer-body{
+    border :solid 3px black;
+    border-top: 0;
+}

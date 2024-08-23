@@ -1,0 +1,11 @@
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\ProjectPRMAPI.exe
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\ProjectPRMAPI.dll
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\ProjectPRMAPI.deps.json
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\ProjectPRMAPI.runtimeconfig.json
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\ProjectPRMAPI.pdb
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vieta\OneDrive\Máy tính\su24\PRN231\project\ProjectPRMAPI\ProjectPRMAPI\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
